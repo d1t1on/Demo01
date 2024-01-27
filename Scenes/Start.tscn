@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://cepfmpq6436pf"]
+
+[ext_resource type="Script" path="res://Scripts/Start.cs" id="1_lpup4"]
+
+[node name="Start" type="CanvasLayer"]
+script = ExtResource("1_lpup4")
+
+[node name="btnStart" type="Button" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -75.0
+offset_top = -140.0
+offset_right = 81.0
+offset_bottom = -80.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Start"
+
+[node name="btnQuit" type="Button" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -76.5
+offset_top = -60.0
+offset_right = 76.5
+grow_horizontal = 2
+grow_vertical = 0
+text = "Quit"
+
+[node name="title" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -242.5
+offset_top = -71.0
+offset_right = 242.5
+offset_bottom = 71.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "鹅鹅鹅"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="btnStart" to="." method="btnStart"]
+[connection signal="pressed" from="btnQuit" to="." method="btnQuit"]
