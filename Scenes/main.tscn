@@ -1,3 +1,3 @@
-[gd_scene format=3 uid="uid://xdat3t3hrtcl"]
+[gd_scene format=3 uid="uid://cxmr13uep36ja"]
 
-[node name="Main" type="CanvasLayer"]
+[node name="Main" type="Node2D"]
